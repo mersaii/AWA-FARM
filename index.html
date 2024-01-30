@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
+        
         <title>AWA FARM</title>
     </head>
     <body>
@@ -16,7 +16,7 @@
                 <nav>
                     <a href="#"><img src="./images/AWA FARM 2.svg"></a>
                     <div class="nav-links" id="navLinks">
-                        <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
         
                         <ul>
                             <li><a href="#">HOME</a></li>
@@ -26,19 +26,24 @@
                             <li><a href="#">CONTACT</a></li>
                         </ul>
                     </div>
-                    <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
                 </nav>
                 
                     <!-- home box 1 -->
                 <section class="home1" id="home1">
                     <div class="home1-text">
                         <span>Home</span>
-                        <h1>We plan to establish <br>the largest network of <br>decentralized farming system</h1>
-                        <p>With AWA Farm we wil be empowering local farmers, improving agricultural practices, and contributing to the overall development of the agricultural sector.</p>
+                        <!-- <h1 class="grey">We plan to establish </h1>
+                        <h1 class="org">the largest netwSork of </h1>
+                        <h1 class="grey">decentralized farming system</h1> -->
+                        <h1 class="grey">We plan to establish the largest network of decentralized farming system</h1>
+                        <p>Through awa farm, we aim to empower local farmers, enhance agricultural practices, and actively contribute to the holistic development of the agricultural sector..</p>
                         <a href="#" class="home1-btn">Learn More</a>
                     </div>
 
                     <!-- <img src="images/farmiot.jpg" alt=""> -->
+                    <div class="imgdiv">
+                    </div>
                 </section>
             </div>
         </div>
@@ -64,6 +69,16 @@
 
 
 
-        <script type="module" src="/main.js"></script>
+        <script type="module" src="/script.js" >
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
     </body>
 </html>
