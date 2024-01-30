@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-.main{
+.main{ 
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     overflow: hidden;
 }
@@ -17,7 +17,7 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -32,6 +32,8 @@ nav {
     position: sticky;
     top: 0; /* Stick to the top of the viewport */
     z-index: 100; /* Ensure the navbar is above other elements */
+    /* background-color: transparent;
+    transition: background-color 0.3s ease; */
  }
  
 nav img {
@@ -85,7 +87,7 @@ section {
 .home1{
     display: flex;
     position: relative;
-    /* width: 100%; */
+    width: 50%;
     /* min-height: 70vh; */
     align-items: center;
     /* flex: 1; */
@@ -95,18 +97,20 @@ section {
 .home1-text{
     /* display: flex; */
     /* flex-direction: column; */
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: flex-start; */
-    width: 50%;
-    overflow: hidden;
+    /* width: 50%; */
+    /* overflow: hidden; */
     padding: 1rem 0  1rem 0;
 }
+
+
 .home1-text span{
     font-size: 1.2rem;
     font-weight: 400;
     color: #E98204;
-    padding-bottom: 2rem;
-    animation-delay: 600s;
+    /* padding-bottom: 2rem; */
+    /* animation-delay: 600s; */
 }
 
 .home1-text h1{
@@ -118,7 +122,7 @@ section {
     align-content: center;
     display: flex;
     flex-wrap: wrap;
-    animation-delay: 600s;
+    /* animation-delay: 600s; */
 }
 
 .home1-text p{
@@ -127,7 +131,7 @@ section {
     /* color: #0e8388; */
     color: #4b5563;
     padding-bottom: 1rem;
-    animation-delay: 600s;
+    /* animation-delay: 600s; */
 }
 
 .home1-btn {
@@ -154,19 +158,56 @@ section {
  }
 
 
-.imgdiv{
+/* .imgdiv{ */
     /* background-color: red; */
-    width: 50%;
+    /* width: 50%;
     overflow: hidden;
-    padding: 2rem;
+    padding: 2rem; */
     /* text-wrap: wrap; */
-}
+/* } */
 
 @media(max-width: 700px) {
+    .bg-image{
+        background: linear-gradient(#ebebeb,#d8edd9);
+        /* background: linear-gradient(to right, #4eb1b8, #007c07); */
+        transition: background-color 400s ease; 
+        background-size: auto;
+    }
+
+    section {
+        padding: 16px 40px;
+    }
+
+    nav{
+        padding: 16px 40px 0 20px;
+    }
+
     .home1-text h1{
         font-size: 20px;
+        padding-bottom: 16px;
+        padding-top: 20px;
+        
+    }
+    .home1{
+        width: 100%;
     }
  
+    .home1-text{
+        padding: 16px 0  0 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home1-text p{
+        font-size: 16px;
+        padding-bottom: 14px;
+    }
+
+    .home1-btn{
+        align-items: center;
+        margin-top: 20px;
+    }
+
     .nav-links ul li {
         display: block;
     }
@@ -189,10 +230,17 @@ section {
 
     nav .fa {
         display: block;
-        color: #fff;
+        color: #005304;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
     }
  }
  
+
+ /* home2 */
+ .home2{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+ }
