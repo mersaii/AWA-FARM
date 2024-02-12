@@ -1,14 +1,27 @@
-var navLinks = document.getElementById("navLinks");
+console.log("Test");
+const hamBurger = document.querySelector(".ham-btn");
+const navLink = document.querySelector(".nav-links");
 
-function showMenu(){
-    navLinks.style.right = "0";
-    console.log("show");
-}
+hamBurger.addEventListener("click", () => {
+  navLink.classList.toggle("hide");
+});
 
-function hideMenu(){
-    navLinks.style.right = "-200px";
-    console.log("hide");
-}
+
+
+
+
+
+// var navLinks = document.getElementById("navLinks");
+
+// function showMenu(){
+//     navLinks.style.right = "0";
+//     console.log("show");
+// }
+
+// function hideMenu(){
+//     navLinks.style.right = "-200px";
+//     console.log("hide");
+// }
 
 
   // /**

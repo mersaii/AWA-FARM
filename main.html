@@ -13,43 +13,67 @@
     />
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="nav-logo">
-          <a href="#"><img src="./images/AWA FARM 1.png" /></a>
+    <header id="home">
+      <div class="nav-container">
+        <div class="logo">
+          <img src="./images/AWA FARM 1.png" alt="">
         </div>
+        <div class="nav-links hide">
+          <div class="nav-inner1">
+            <nav>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
 
-        <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
-
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#" class="nav-btn">JOIN OUR WAITLIST</a></li>
-          </ul>
+          <div class="nav-inner2">
+            <div class="search">
+              <a href="#"><i class="fa fab-search"></i></a>
+              <div class="navbtn-container">
+                <a href="./contact.html" class="navbtn">Join Waitlist</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-      </nav>
+        
+        <button class="ham-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="42"
+            height="40"
+            viewBox="0 0 18 12"
+          >
+            <path
+              id="ic_menu_24px"
+              d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z"
+              transform="translate(-3 -6)"
+              fill="#005304"
+            />
+          </svg>
+        </button>
+      </div>
     </header>
 
     <!-- section 1 -->
 
-    <div class="about-bio">
+    <div class="about-bio" id="about-us">
       <div class="about-bio-flex">
         <div class="about-bio-text">
-          <p class="about-bio-tagline">Transforming Agriculture One Field at a Time</p>
+          <p class="about-bio-tagline">
+            Transforming Agriculture One Field at a Time
+          </p>
           <p class="about-bio-main">
             Awa Farm is an Agric-Tech StartUp focused on creating a global
-            market
-            for our rural farmers. We want to upgrade all subsistence farmers
-            to become an integral part of our decentralized mechanized farming.
-            We are committed to upgrading subsistence farmers, providing them
-            with the tools, knowledge, and market access needed to thrive.
-            Through this, we aim to create a resilient and inclusive
+            market for our rural farmers. We want to upgrade all subsistence
+            farmers to become an integral part of our decentralized mechanized
+            farming. We are committed to upgrading subsistence farmers,
+            providing them with the tools, knowledge, and market access needed
+            to thrive. Through this, we aim to create a resilient and inclusive
             agricultural ecosystem in Edo State, setting a precedent for
-            sustainable
-            farming practices and global market integration.
+            sustainable farming practices and global market integration.
           </p>
         </div>
         <div class="bio-image">
@@ -68,7 +92,7 @@
       <div class="mission-flex">
         <div class="mission-box1">
           <div class="mission-icon">
-            <img src="./images/Mission Icon.png" alt="" width="30%">
+            <img src="./images/Mission Icon.png" alt="" width="30%" />
           </div>
           <p class="mission-box1-text">
             <span>Our Mission</span> <br />
@@ -82,7 +106,7 @@
         </div>
         <div class="mission-box2">
           <div class="mission-icon">
-            <img src="./images/Vision Icon.png" alt="" width="30%">
+            <img src="./images/Vision Icon.png" alt="" width="30%" />
           </div>
           <p class="mission-box1-text">
             <span>Our Vision</span> <br />
@@ -96,7 +120,7 @@
         </div>
         <div class="mission-box3">
           <div class="mission-icon">
-            <img src="./images/Icon 1.png" alt="" width="30%">
+            <img src="./images/Icon 1.png" alt="" width="30%" />
           </div>
           <p class="mission-box1-text">
             <span>Our Approach</span> <br />
@@ -118,11 +142,12 @@
         <div class="bio-text">
           <p class="tagline">Target Audience</p>
           <p class="bio-main">
-            Our primary focus is on house owners with available land on their property
-            that has the potential for farming crops.
-            If you own a piece of land and aspire to contribute to sustainable agriculture 
-            while harnessing the economic benefits, Awa Farm is here to guide you 
-            through the journey of becoming a successful and empowered modern farmer.
+            Our primary focus is on house owners with available land on their
+            property that has the potential for farming crops. If you own a
+            piece of land and aspire to contribute to sustainable agriculture
+            while harnessing the economic benefits, Awa Farm is here to guide
+            you through the journey of becoming a successful and empowered
+            modern farmer.
           </p>
         </div>
         <div class="target-bio-image">
@@ -141,7 +166,7 @@
       <div class="vision-flex">
         <div class="vision-box1">
           <div class="mission-icon">
-            <img src="./images/decentralized Icon.png" alt="" width="30%">
+            <img src="./images/decentralized Icon.png" alt="" width="30%" />
           </div>
           <p class="vision-box1-text-title">
             Decentralized Mechanized Farming:
@@ -156,7 +181,7 @@
         </div>
         <div class="vision-box2">
           <div class="mission-icon">
-            <img src="./images/eco-system icon.png" alt="" width="30%">
+            <img src="./images/eco-system icon.png" alt="" width="30%" />
           </div>
           <p class="vision-box1-text-title">
             Resilient Agricultural Ecosystem:
@@ -171,17 +196,16 @@
         </div>
         <div class="vision-box3">
           <div class="mission-icon">
-            <img src="./images/Global Icon.png" alt="" width="30%">
+            <img src="./images/Global Icon.png" alt="" width="30%" />
           </div>
           <p class="vision-box1-text-title">Global Market Integration:</p>
           <p class="vision-box1-text-inner">
             We picture a world where the produce of our local farmers transcends
-            geographical boundaries. <br>
-            Awa Farm is committed to providing market
-            access that goes beyond local markets, connecting farmers with
-            global opportunities. Our vision includes Edo State serving as a
-            model for seamlessly integrating into the global agricultural supply
-            chain.
+            geographical boundaries. <br />
+            Awa Farm is committed to providing market access that goes beyond
+            local markets, connecting farmers with global opportunities. Our
+            vision includes Edo State serving as a model for seamlessly
+            integrating into the global agricultural supply chain.
           </p>
         </div>
       </div>
@@ -197,7 +221,7 @@
       <div class="services-flex">
         <div class="service-box1">
           <div class="service-icon">
-            <img src="./images/Education Icon.png" alt="" width="30%">
+            <img src="./images/Education Icon.png" alt="" width="30%" />
           </div>
           <p class="service-box1-text">
             <span>Education and Training:</span> <br />
@@ -208,7 +232,7 @@
         </div>
         <div class="service-box2">
           <div class="service-icon">
-            <img src="./images/Mechanized Icon.png" alt="" width="30%">
+            <img src="./images/Mechanized Icon.png" alt="" width="30%" />
           </div>
           <p class="service-box1-text">
             <span>Mechanized Farming Solutions:</span> <br />
@@ -219,7 +243,7 @@
         </div>
         <div class="service-box3">
           <div class="service-icon">
-            <img src="./images/Market access icon.png" alt="" width="30%">
+            <img src="./images/Market access icon.png" alt="" width="30%" />
           </div>
           <p class="service-box1-text">
             <span>Market Access: </span> <br />
@@ -231,54 +255,89 @@
       </div>
     </div>
 
-<!-- section 6  -->
-
     <div class="footer-banner">
       <div class="footer-text-container">
-        <p class="footer-banner-title">Join Us in Cultivating a Sustainable Future!</p>
+        <p class="footer-banner-title">
+          Join Us in Cultivating a Sustainable Future!
+        </p>
         <p class="footer-banner-inner-text">
-          Upgrade your land, empower our farmers, and be a part of the global agricultural transformation with Awa Farm.
+          Upgrade your land, empower our farmers, and be a part of the global
+          agricultural transformation with Awa Farm.
         </p>
       </div>
       <div class="footer-input">
-        <input type="text" placeholder="Enter your Email">
+        <input type="text" placeholder="Enter your Email" />
         <a href="" class="input-btn">Subscribe to Our Newsletter</a>
       </div>
     </div>
 
-    <footer>
-      <div class="footer-flex">
-        <div class="fflex-1"></div>
-        <div class="fflex-1"></div>
-        <div class="fflex-1"></div>
-      </div>
-      <div class="footer-links">
-        <p class="copyright">
-          &COPY; 2023 AWA FARM | ALL RIGHTS RESERVED
-        </p>
-      </div>
-    </footer>
+    <section class="home3" id="contact-us">
+      <section class="ft-2">
+        <footer>
+          <div class="footer-cont">
+            <div class="">
+              <div class="footer-coli">
+                <i class="fa-regular fa-envelope fa-xl"></i>
+              </div>
+              <div class="">
+                <p class="footer-title">Let's Talk</p>
+                <p><a href="" class="footer-email">Email: awafarm.ng@gmail.com</a></p>
+                <p><a href="" class="footer-phonenumber">Phone: +234 906 669 8251</a></p>
+              </div>
+            </div>
 
+            <div class="divider"></div>
 
+            <div class="footer-cont2">
+              <div class="footer-coli">
+                <i class="fa-solid fa-location-dot fa-xl"></i>
+              </div>
+              <div class="">
+                <p class="footer-title">Our Location:</p>
+                <p class="footer-location">Wire Road, Benin City, Edo State</p>
+              </div>
+            </div>
 
+            <div class="divider"></div>
 
+            <div>
+              <div class="footer-coli">
+                <i class="fa-regular fa-clock fa-xl"></i>
+              </div>
+              <div class="">
+                <p class="footer-title">Our Timings</p>
+                <p class="footer-timings">Mon - Fri: 9:00am - 5:00pm</p>
+                <p class="footer-timings">Sat - Sun: 10:00am - 4:00pm</p>
+              </div>
+            </div>
 
+            <div class="divider3"></div>
 
+          </div>
+        </footer>
+      </section>
 
+      <section class="ft">
+        <div class="footer-cpr">
+          <div><h3>&copy; 2024 AWA FARM. All Rights Reserved.</h3></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <div class="socials">
+            <div class="circle">
+              <a href="https://www.facebook.com/profile.php?id=61555770253465&mibextid=kFxxJD"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+            <div class="circle">
+              <a href="https://twitter.com/AwaFarm21366?t=G7XvKSkxdqZtiU41EkmjnQ&s=09"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="circle">
+              <a href="https://www.instagram.com/awafarm_ng?igsh=YTFva2xuYXl4aDVw"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="circle">
+              <a href="https://www.linkedin.com/company/awafarm-ng/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
 
     <script type="module" src="/script.js">
       var navLinks = document.getElementById("navLinks");
