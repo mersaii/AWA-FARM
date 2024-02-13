@@ -40,7 +40,7 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   /* margin-top: -1rem; */
+   margin-top: -1rem;
 }
 
 
@@ -694,7 +694,7 @@
    .nav-container{
       display: flex;
       justify-content: space-between;
-      padding: 60px 50px 60px 50px;
+      padding: 60px 60px 60px 60px;
       align-items: center;
       flex-wrap: wrap;
       background-color: transparent;
@@ -779,7 +779,7 @@
 
 
    .nav-container{
-      padding: 20px 36px;
+      /* padding: 20px 36px; */
   }
 
   .ham-btn{
