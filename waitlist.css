@@ -46,7 +46,7 @@ a {
     overflow: hidden;
     width: 868px;
     max-width: 100%;
-    min-height: 580px;
+    min-height: 600px;
 }
 
 .form-container form {
@@ -79,7 +79,7 @@ a {
     background: #eee;
     border: none;
     padding: 12px 15px;
-    margin: 8px 0;
+    margin: 12px 0;
     width: 100%;
 }
 
@@ -219,4 +219,34 @@ button.ghost {
 	height: 30px;
 	letter-spacing: 15px;
 	align-items: center;
+}
+
+
+
+
+
+
+
+/* responsive styles */
+
+
+@media (max-width: 912px){
+    .container {
+        background:#005304;
+        border-radius: 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+        position: relative;
+        overflow: hidden;
+        width: 768px;
+        max-width: 100%;
+        min-height: 660px;
+    }
+
+    .form-container input {
+        background: #eee;
+        border: none;
+        padding: 12px 15px;
+        margin: 16px 0;
+        width: 100%;
+    }
 }

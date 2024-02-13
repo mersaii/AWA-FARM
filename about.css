@@ -11,7 +11,7 @@
 .nav-container{
    display: flex;
    justify-content: space-between;
-   padding: 0px 60px 0px 15px;
+   padding: 40px 50px 40px 50px;
    align-items: center;
    flex-wrap: wrap;
    background-color: transparent;
@@ -21,6 +21,11 @@
    opacity: 1;
    position: fixed;
    width: 100%;
+}
+
+.nav-container .logo img{
+   width: 62px;
+   height: 37px;
 }
 
 
@@ -35,7 +40,7 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   margin-top: -1rem;
+   /* margin-top: -1rem; */
 }
 
 
@@ -563,7 +568,7 @@
    .nav-container{
       display: flex;
       justify-content: space-between;
-      padding: 0px 60px 0px 15px;
+      padding: 40px 50px 40px 50px;
       align-items: center;
       flex-wrap: wrap;
       background-color: transparent;
@@ -575,7 +580,11 @@
       width: 100%;
    }
    
-   
+   .nav-container .logo img{
+      width: 62px;
+      height: 37px;
+   }
+
    .nav-container .nav-inner1{
       display: flex;
       flex-wrap: wrap;
@@ -685,7 +694,7 @@
    .nav-container{
       display: flex;
       justify-content: space-between;
-      padding: 0px 60px 0px 15px;
+      padding: 60px 50px 60px 50px;
       align-items: center;
       flex-wrap: wrap;
       background-color: transparent;
@@ -782,7 +791,7 @@
 
   .nav-links{
       position: absolute;
-      top: 170px;
+      top: 100px;
       flex-direction: column;
       left: 0;
       padding: 50px 0px;
@@ -1152,7 +1161,7 @@
    .nav-container{
       display: flex;
       justify-content: space-between;
-      padding: 0px 60px 0px 15px;
+      padding: 60px 60px 60px 60px;
       align-items: center;
       flex-wrap: wrap;
       background-color: transparent;
@@ -1248,7 +1257,7 @@
 
   .nav-links{
       position: absolute;
-      top: 170px;
+      top: 100px;
       flex-direction: column;
       left: 0;
       padding: 50px 0px;
@@ -1622,7 +1631,7 @@
    .nav-container{
       display: flex;
       justify-content: space-between;
-      padding: 0px 60px 0px 15px;
+      padding: 60px 60px 60px 60px;
       align-items: center;
       flex-wrap: wrap;
       background-color: transparent;
@@ -1723,7 +1732,7 @@
 
   .nav-links{
       position: absolute;
-      top: 170px;
+      top: 100px;
       flex-direction: column;
       left: 0;
       padding: 50px 0px;
@@ -2213,7 +2222,7 @@
 
 @media (max-width: 430px) {
    .nav-container{
-      padding: 20px 0px;
+      padding: 40px 60px;
   }
 
   .ham-btn{
@@ -2231,7 +2240,7 @@
 
   .nav-links{
       position: absolute;
-      top: 170px;
+      top: 100px;
       flex-direction: column;
       left: 0;
       padding: 50px 0px;
@@ -2734,8 +2743,8 @@
 
 @media (max-width: 390px) {
   .nav-container{
-   padding: 20px 0px;
-}
+   padding: 40px 60px;
+   }
 
 
 .nav-container .nav-inner1{
@@ -2828,7 +2837,7 @@ margin-right: 2rem;
 
 .nav-links{
    position: absolute;
-   top: 170px;
+   top: 100px;
    flex-direction: column;
    left: 0;
    padding: 50px 0px;
@@ -3200,9 +3209,13 @@ ul{
 
 
 @media (max-width: 280px) {
+   .nav-container{
+      padding: 40px 0px;
+      }
+
    .nav-links{
       position: absolute;
-      top: 170px;
+      top: 100px;
       flex-direction: column;
       left: 0;
       padding: 50px 0px;
@@ -3210,6 +3223,15 @@ ul{
       width: 100%;
       height: 45vh;
   }
+
+  .nav-container .logo img{
+   width: 62px;
+   height: 37px;
+   }
+
+   .nav-container .logo{
+      margin-left: 1.6rem;
+   }
 
    .about-bio{
       padding: 10rem 2rem 2rem 2rem;
