@@ -2222,7 +2222,7 @@
 
 @media (max-width: 430px) {
    .nav-container{
-      padding: 40px 60px;
+      padding: 40px 30px;
   }
 
   .ham-btn{
@@ -2240,13 +2240,13 @@
 
   .nav-links{
       position: absolute;
-      top: 100px;
+      top: 110px;
       flex-direction: column;
       left: 0;
       padding: 50px 0px;
       background: #c7c7c785;
       width: 100%;
-      height: 50vh;
+      height: 40vh;
   }
 
   .hide{
@@ -2254,8 +2254,6 @@
   }
 
   header nav a{
-      margin-bottom: 40px;
-      /* border: 1rem solid rgba(0, 0, 0, 0.021); */
       display: block;
       
   }
@@ -2268,7 +2266,7 @@
 
 
    .about-bio{
-      padding: 12rem 2rem 2rem 2rem;
+      padding: 8rem 2rem 2rem 2rem;
       background-color: #00530425;
   }
   
@@ -2738,12 +2736,116 @@
 }
 
 
+@media (max-width: 412px) {
+   .nav-container{
+      padding: 40px 30px;
+      }
+   
+   
+   .nav-container .nav-inner1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      /* margin-right: 1rem; */
+   }
+   
+   .nav-container .nav-inner2{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   
+   
+   .nav-links{
+      display: flex;
+      justify-content: space-between;
+   }
+   
+   .ham-btn{
+      display: none;
+   }
+   
+   .ham-btn svg{
+      width: 30px;
+      height: 32px;
+   }
+   
+   .nav-container ul{
+      display: flex;
+      flex-wrap: wrap;
+   }
+   
+   .nav-container ul li{
+      list-style: none;
+   }
+   
+   .nav-container ul li a{
+      text-decoration: none;
+      color: #005304;
+      padding: 20px 40px;
+      font-weight: 700;
+      font-size: 18px;
+   }
+   
+   .nav-links ul li a:hover{
+      color: #e98204;
+      transition: 1s;
+   }
+   
+   .nav-container .navbtn-container {
+      margin-left: 2rem;
+   }
+   
+   .nav-container .navbtn-container .navbtn{
+      padding: 15px 30px;
+      color: white;
+      background-color: #005304;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 4px;
+      font-weight: 700;
+   }
+   
+   .nav-container .navbtn-container .navbtn:hover{
+      padding: 15px 30px;
+      color: white;
+      background-color: #E98204;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      transition: 1s;
+   }
+   
+   
+   .ham-btn{
+      display: block;
+      z-index: 999;
+      background: transparent;
+      border: none;
+   }
+   
+   .ham-btn svg{
+   width: 30px;
+   height: 32px;
+   margin-right: 2rem;
+   }
+   
+   .nav-links{
+      position: absolute;
+      top: 120px;
+      flex-direction: column;
+      left: 0;
+      padding: 50px 0px;
+      background: #c7c7c785;
+      width: 100%;
+      height: 40vh;
+   }
+}
 
 
-
-@media (max-width: 390px) {
+@media (max-width: 400px) {
   .nav-container{
-   padding: 40px 60px;
+   padding: 40px 30px;
    }
 
 
@@ -2787,7 +2889,7 @@
 .nav-container ul li a{
    text-decoration: none;
    color: #005304;
-   padding: 0px 40px;
+   padding: 10px 40px;
    font-weight: 700;
    font-size: 18px;
 }
@@ -2837,13 +2939,13 @@ margin-right: 2rem;
 
 .nav-links{
    position: absolute;
-   top: 100px;
+   top: 110px;
    flex-direction: column;
    left: 0;
    padding: 50px 0px;
    background: #c7c7c785;
    width: 100%;
-   height: 50vh;
+   height: 40vh;
 }
 
 .hide{
