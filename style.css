@@ -1,8 +1,10 @@
 * {
     margin: 0; 
     padding: 0;
-    font-family: Ubuntu,sans-serif,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    font-family: ubuntu, sans-serif, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     box-sizing: border-box;
+    /* transition: 1s ease; */
+    scroll-behavior: smooth;
 }
 
 .main{ 
@@ -23,8 +25,8 @@
 
 nav {
     display: flex;
-    padding-top: 1rem;
-    /* padding-bottom: 2rem; */
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
     justify-content: space-between;
     align-items: center;
     padding-left: 5rem;
@@ -37,8 +39,9 @@ nav {
  }
  
 nav img {
-    width: 150x;
-    /* height: 60px; */
+    width: 62px;
+    height: 37px;
+    margin-left: 1.8rem;
  }
  
 .nav-links {
@@ -64,7 +67,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: #0e8388;
+    background: #005304;
     display: block;
     margin:auto;
     transition: 0.5s;
@@ -129,7 +132,7 @@ section {
 .home1-text h1{
     font-size: 2.5rem;
     font-weight: 700;
-    color: #0e8388;
+    color: #005304;
     padding-bottom: 1rem;
     padding-top: 1.5rem;
     align-content: center;
@@ -141,7 +144,7 @@ section {
 .home1-text p{
     font-size: 1.2rem;
     font-weight: 400;
-    /* color: #0e8388; */
+    /* color: #005304; */
     color: #4b5563;
     padding-bottom: 1rem;
     /* animation-delay: 600s; */
@@ -156,18 +159,17 @@ section {
     background: transparent;
     position: relative;
     cursor: pointer;
-    background: #0e8388;
+    background: #005304;
     color: #fff;
     margin-top: 3rem;
     animation-delay: 600s;
     /* font-weight: bold; */
-    border: 1px solid #0e8388;
+    border: 1px solid #005304;
     border-radius: 5px;
  }
  
  .home1-btn:hover {
-    /* background: #0e8388; */
-    /* color: #fff; */
+    background: #296315;
     border: 1px solid #000;
     transition: 1s;
  }
@@ -229,7 +231,7 @@ section {
  
     .nav-links {
         position: absolute;
-        background: #0e8388;
+        background: #005304;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -258,7 +260,7 @@ section {
 
 /* home2 */
 .home2{
-    /* height: 100vh; */
+    height: auto;
     width: 100%;
     background-color: #fff;
     padding-top: 4.5rem;
@@ -273,7 +275,7 @@ section {
 .home2 h1{
     font-size: 2.5rem;
     font-weight: 700;
-    color: #0e8388;
+    color: #005304;
     padding-bottom: 1rem;
     padding-top: 1.5rem;
     align-content: center;
@@ -292,10 +294,10 @@ section {
 
 .home2-col{
     /* flex: 0 0 calc(33.333% - 32px); */
-    flex: 0 0 300px;
+    flex: 0 0 330px;
     flex-wrap: wrap;
     /* width: 100%; */
-    padding: 32px;
+    padding: 32px 32px 10px 32px;
     border-radius: 0.75rem;
     box-sizing: border-box;
     /* box-shadow: #005304; */
@@ -310,20 +312,69 @@ section {
 .home2-col p{
     padding-bottom: 1rem;
     color: #4b5563;
+    line-height: 25px;
 } 
 
 .home2-col .titlei{
     padding: 1rem 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .home2-col .title{
-    color: #0e8388;
+    color: #005304;
+    margin-bottom: 1.5rem;
 }
 
 .home2-col i{
     color: #e98204;
 }
+
+
+/* waitlist */
+.home4-text{
+    align-content: center;
+    text-align: center;
+}
+
+/* .home4-text span{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #E98204;
+    padding-bottom: 2rem;
+} */
+
+.home4-text h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #005304;
+    /* padding-bottom: 5rem; */
+    padding-top: 3rem;
+}
+
+.home4-text .home4-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    background: #005304;
+    color: #fff;
+    margin-top: 3rem;
+    animation-delay: 600s;
+    /* font-weight: bold; */
+    border: 1px solid #005304;
+    border-radius: 5px;
+ }
+
+ /* .home4-btn:hover {
+    background: #566e4d;
+    border: 1px solid #000;
+    transition: 1s;
+ } */
+
 
 /* footer */
 
@@ -344,7 +395,7 @@ section {
 }
 
 .footer-cpr .socials .circle{
-    background-color: #0e8388;
+    background-color: #005304;
     border-radius: 50%;
     padding: 0.5rem;
     margin: 0 0.5rem;
@@ -403,5 +454,151 @@ footer{
         border-right: none;
         height: auto;
         width: 100%;
+    }
+}
+
+/* about page */
+/* #home1-about{
+    height: 100vh;
+} */
+#home1-about .home1-text h1 {
+    font-size: 47px;
+    font-weight: 700;
+    padding-top: 1.5rem;
+    line-height: 65px;
+}
+
+#home1-about p, h2, h3{
+    /* font-size: 2.5rem; */
+    /* font-weight: 700; */
+    /* color: #005304; */
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    align-content: center;
+    line-height: 30px;
+    color: #4b5563;
+}
+
+.about-content{
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(245, 245, 224, 0.445));
+}
+
+.cont{
+    padding: 1rem 6rem 1.5rem 6rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* margin-top: 2rem; */
+    padding-top: 7rem;
+    /* background: linear-gradient(to bottom, rgb(255, 255, 255), beige); */
+}
+
+/* .cont:nth-of-type(even){
+    padding: 1rem 0 1.5rem 7rem; 
+}
+
+.cont:nth-of-type(odd){
+    padding: 1rem 6rem 1.5rem 7rem; 
+} */
+
+
+.aboutsec{
+    width:100%;
+    /* margin-right: 2rem; */
+    height: 70vh;
+    text-align: center;
+    align-items: center;
+}
+
+.cont .aboutsec:nth-of-type(even){
+    margin-left: 4rem;
+    margin-top: 3rem;
+    /* padding: 1rem 0 1.5rem 7rem; */
+}
+
+.cont .aboutsec:nth-of-type(odd){
+    margin-right: 2rem;
+    margin-top: 3rem;
+    /* padding: 1rem 6rem 1.5rem 7rem; */
+    
+}
+
+.aboutsec h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #005304;
+    margin-bottom: 1rem;
+}
+
+.aboutsec p{
+    font-size: 23px;
+    font-weight: 500;
+    color: #005304;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+
+.aboutsec-img img{
+    width: 500px;
+    height: 446px;
+    border-radius: 10px;
+}
+
+@media(max-width: 700px){
+    #home1-about .home1-text h1{
+        font-size: 48px;
+        padding-bottom: 16px;
+        padding-top: 20px;
+    }
+
+    .cont{
+        padding: 40px 20px 0 20px;
+        align-items: center;
+        /* padding-top: 60px; */
+        /* height: auto; */
+    }
+
+
+    .cont:nth-of-type(odd){
+        flex-direction: column;
+
+    }
+
+    .cont:nth-of-type(even){
+        flex-direction: column-reverse;
+    }
+    
+
+    .aboutsec{
+        height: auto;
+    }
+
+    .aboutsec h1{
+        font-size: 35px;
+        font-weight: bold;
+        color: #005304;
+        margin-bottom: 24px;
+    }
+
+    .aboutsec p{
+        font-size: 20px;
+        font-weight: 500;
+        color: #005304;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cont .aboutsec{
+        padding: 30px;
+    }
+
+    .cont .aboutsec:nth-of-type(even) {
+        margin-left: 0;
+    }
+
+    .aboutsec-img img{
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
     }
 }
