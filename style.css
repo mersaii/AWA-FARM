@@ -31,6 +31,8 @@ nav {
     align-items: center;
     padding-left: 5rem;
     padding-right: 6rem;
+    /* position: fixed; */
+    /* background: linear-gradient(to right, #ffffff, #deffdf); */
     /* position: sticky; */
     /* top: 0; Stick to the top of the viewport */
     /* z-index: 100; Ensure the navbar is above other elements */
@@ -47,6 +49,7 @@ nav img {
 .nav-links {
     flex: 1;
     text-align: right;
+    /* position: fixed; */
  }
  
 .nav-links ul li {
@@ -512,7 +515,7 @@ footer{
 .aboutsec{
     width:100%;
     /* margin-right: 2rem; */
-    height: 70vh;
+    height: 50vh;
     text-align: center;
     align-items: center;
 }
