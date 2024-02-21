@@ -334,6 +334,7 @@ section {
 .home4-text{
     align-content: center;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 /* .home4-text span{
@@ -347,8 +348,8 @@ section {
     font-size: 2.5rem;
     font-weight: 700;
     color: #005304;
-    /* padding-bottom: 5rem; */
-    padding-top: 3rem;
+    padding-bottom: 20px;
+    padding-top: 5rem;
 }
 
 .home4-text .home4-btn{
@@ -448,12 +449,18 @@ footer{
     .footer-cont{
         flex-direction: column;
         align-items: center;
+        margin-top: 20px;
     }
 
     .footer-col1{
         border-right: none;
         height: auto;
         width: 100%;
+        margin: 0;
+    }
+
+    .home4-text{
+        padding-bottom: 30px;
     }
 }
 
@@ -480,7 +487,7 @@ footer{
 }
 
 .about-content{
-    background: linear-gradient(to left, rgb(255, 255, 255), rgba(245, 245, 224, 0.445));
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(245, 245, 224, 0.61), rgba(245, 245, 224, 0.61));
 }
 
 .cont{
@@ -581,7 +588,7 @@ footer{
     }
 
     .aboutsec p{
-        font-size: 20px;
+        font-size: 17px;
         font-weight: 500;
         color: #005304;
         line-height: 30px;
@@ -589,11 +596,20 @@ footer{
     }
 
     .cont .aboutsec{
-        padding: 30px;
+        padding: 20px;
     }
 
     .cont .aboutsec:nth-of-type(even) {
         margin-left: 0;
+        padding-top: 0;
+        margin-top: 2rem
+    }
+
+    .cont .aboutsec:nth-of-type(odd) {
+        margin-left: 0;
+        padding-top: 0;
+        margin-top: 2rem;
+        margin-right: 0
     }
 
     .aboutsec-img img{
